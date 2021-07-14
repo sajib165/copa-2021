@@ -20,9 +20,18 @@ body{
 .banner-left-content a {
 
 font-size: 16px;
-padding: 16px;
-background-color: rgb(255, 44, 86);
-border-radius: 5px;
+/* padding: 16px; */
+/* background-color: rgb(255, 44, 86); */
+/* border-radius: 5px; */
+}
+.link-button{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background-color: crimson;
+  padding: 10px 40px;
+  border-radius: 5px;
+
 }
 .photo-container{
   display: grid;
@@ -59,11 +68,11 @@ border-radius: 5px;
 }
 .messi{
   display: grid;
-  grid-template-columns: repeat(2,1fr)
-  
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
 }
 .all-container{
-  font-size: 40px;
+  font-size: 30px;
 }
 .match-photo{
   width: 100%;
